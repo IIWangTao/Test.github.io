@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>练习2</title>
+		<style>
+			.eyes{
+				perspective: 20000px;
+			}
+			.box{
+				width: 100px;
+				height: 100px;
+/*				background-color: pink;
+*/				transform-style: preserve-3d;
+				position: relative;
+				top:100px;
+				left: 600px;
+				/*transition: all 600s ease 0.2s;*/
+				animation: move 20s infinite linear;
+			}
+			/*.box:hover{
+				transform: rotateY(36000deg);
+			}*/
+			div{
+				width: 100px;
+				height: 100px;
+				position: absolute;
+				opacity: 0.9;
+			}
+			img{
+				width: 100%;
+				height:100%;
+			}
+			.div1{
+				background-color:red;
+				transform: rotateY(45deg) translateZ(200px) translateY(50px); 
+			}
+			.div2{
+				background-color: blue;
+				transform: rotateY(90deg) translateZ(200px) translateY(100px);
+			}
+			.div3{
+				background-color: yellow;
+				transform: rotateY(135deg) translateZ(200px) translateY(150px);
+			}
+			.div4{
+				background-color:red;
+				transform: rotateY(180deg) translateZ(200px) translateY(200px); 
+			}
+			.div5{
+				background-color:red;
+				transform: rotateY(225deg) translateZ(200px) translateY(250px); 
+			}
+			.div6{
+				background-color:red;
+				transform: rotateY(270deg) translateZ(200px) translateY(300px); 
+			}
+			.div7{
+				background-color:red;
+				transform: rotateY(315deg) translateZ(200px) translateY(350px); 
+			}
+			.div8{
+				background-color:red;
+				transform: rotateY(360deg) translateZ(200px) translateY(400px); 
+			}
+			.div9{
+				background-color:red;
+				transform: rotateY(45deg) translateZ(200px) translateY(450px); 
+			}
+			.div10{
+				background-color: blue;
+				transform: rotateY(90deg) translateZ(200px) translateY(500px);
+			}
+			.div11{
+				background-color: yellow;
+				transform: rotateY(135deg) translateZ(200px) translateY(550px);
+			}
+			.div12{
+				background-color:red;
+				transform: rotateY(180deg) translateZ(200px) translateY(600px); 
+			}
+			.div13{
+				background-color:red;
+				transform: rotateY(225deg) translateZ(200px) translateY(650px); 
+			}
+			.div14{
+				background-color:red;
+				transform: rotateY(270deg) translateZ(200px) translateY(700px); 
+			}
+			.div15{
+				background-color:red;
+				transform: rotateY(315deg) translateZ(200px) translateY(750px); 
+			}
+			.div16{
+				background-color:red;
+				transform: rotateY(360deg) translateZ(200px) translateY(800px); 
+			}
+			@keyframes move{
+				0%{transform: rotateY(0);}
+				100%{transform: rotateY(360deg);}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="eyes">
+			<div class="box">
+				<div class="div1"><img src="2.jpg" alt=""></div>
+				<div class="div2"><img src="3.jpg" alt=""></div>
+				<div class="div3"><img src="4.jpg" alt=""></div>
+				<div class="div4"><img src="5.jpg" alt=""></div>
+				<div class="div5"><img src="6.jpg" alt=""></div>
+				<div class="div6"><img src="7.jpg" alt=""></div>
+				<div class="div7"><img src="2.jpg" alt=""></div>
+				<div class="div8"><img src="3.jpg" alt=""></div>
+				<div class="div9"><img src="4.jpg" alt=""></div>
+				<div class="div10"><img src="5.jpg" alt=""></div>
+				<div class="div11"><img src="6.jpg" alt=""></div>
+				<div class="div12"><img src="7.jpg" alt=""></div>
+				<div class="div13"><img src="2.jpg" alt=""></div>
+				<div class="div14"><img src="3.jpg" alt=""></div>
+				<div class="div15"><img src="4.jpg" alt=""></div>
+				<div class="div16"><img src="5.jpg" alt=""></div>
+			</div>
+		</div>
+	</body>
+</html>
