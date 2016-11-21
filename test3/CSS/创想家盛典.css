@@ -1,0 +1,410 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+	height:100%;
+	background-color: black; 
+	overflow: hidden;
+}
+.bigdiv{
+	width: 100%;
+	height: 667px;
+	position: relative;
+	background-image: url(../image2/bgimage.jpg);
+}
+.maindiv{
+	width: 208px;
+	height: 208px;
+	/*background-color: pink;*/
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	margin-left: -104px;
+	perspective: 500px;
+}
+.img1{
+	width: 208px;
+	position: absolute;
+	animation: img1move 1s linear 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes img1move{
+	0%{
+		left: 400px;
+	}
+	50%{
+		left: 400px;
+	}
+	100%{
+		left: 0;
+	}
+}
+.img2{
+	height: 208px;
+	position: absolute;
+	animation: img2move 1s linear 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes img2move{
+	0%{
+		left: -250px;
+	}
+	50%{
+		left: -250px;
+	}
+	100%{
+		left: 0;
+	}
+}
+.img3{
+	width: 208px;
+	position: absolute;
+	top: 83px;
+	animation: img3move 1s linear 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes img3move{
+	0%{
+		top: 300px;
+	}
+	50%{
+		top: 300px;
+	}
+	100%{
+		top: 83px;
+	}
+}
+.img4{
+	width: 44px;
+	height: 60px;
+	position: absolute;
+	top: 74px;
+	animation: img4move 1s linear 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes img4move{
+	0%{
+		left: 100px;
+		top: -300px;
+	}
+	50%{
+		left: 100px;
+		top: -300px;
+	}
+	100%{
+		left: 0px;
+		top: 74px;
+	}
+}
+.img5{
+	width: 50px;
+	height: 109px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	animation: img5move 1s linear 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes img5move{
+	0%{
+		left: 200px;
+		top: -300px;
+	}
+	50%{
+		left: 200px;
+		top: -300px;
+	}
+	100%{
+		left: 50px;
+		top: 50px;
+	}
+}
+.img6{
+	width: 15px;
+	height: 17px;
+	position: absolute;
+	top: 85px;
+	left: 60px;
+	animation: img6move 1s linear 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes img6move{
+	0%{
+		left: 100px;
+		top: -300px;
+	}
+	50%{
+		left: 100px;
+		top: -300px;
+	}
+	100%{
+		left: 60px;
+		top: 85px;
+	}
+}
+.img7{
+	width: 56px;
+	height: 181px;
+	position: absolute;
+	left: 85px;
+	animation: img7move 1s linear 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes img7move{
+	0%{
+		top: -300px;
+		left: 135px;
+	}
+	50%{
+		top: -300px;
+		left: 135px;
+	}
+	100%{
+		left: 85px;
+		top: 0px;	
+	}
+}
+.img8{
+	width: 26px;
+	height: 110px;
+	position: absolute;
+	left: 114px;
+	animation: img8move 1s linear 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes img8move{
+	0%{
+		top: -300px;
+		left: 200px;
+	}
+	50%{
+		top: -300px;
+		left: 200px;
+	}
+	100%{
+		left: 114px;
+		top: 0px;	
+	}
+}
+
+.img9{
+	width: 151px;
+	height: 83px;
+	position: absolute;
+	left: 59px;
+	top: 125px;
+	animation: img9move 1s linear 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes img9move{
+	0%{
+		top: 350px;
+		left: 350px;
+	}
+	50%{
+		top: 350px;
+		left: 350px;
+	}
+	100%{
+		left: 59px;
+		top: 125px;	
+	}
+}
+.img10{
+	width: 26px;
+	height: 41px;
+	position: absolute;
+	top: 84px;
+	left: 10px;
+	animation: img10move 1.5s linear 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes img10move{
+	0%{
+		top: 84px;
+		left: -200px;
+	}
+	50%{
+		top: 84px;
+		left: -200px;
+	}
+	100%{
+		left: 10px;
+		top: 84px;	
+	}
+}
+.img11{
+	width: 160px;
+	height: 137px;
+	position: absolute;
+	top: 71px;
+	left: 50px;
+	animation: img11move 1.5s linear 1s;	
+	animation-fill-mode: forwards;
+}
+@keyframes img11move{
+	0%{
+		transform: translateZ(500px);
+	}
+	50%{
+		transform: translateZ(500px);
+	}
+	100%{
+		transform: translateZ(0px);	
+	}
+}
+.img12{
+	width: 28px;
+	height: 41px;
+	position: absolute;
+	top: 75px;
+	left: 84px;
+	animation: img12move 1.5s linear 1s;	
+	animation-fill-mode: forwards;
+}
+@keyframes img12move{
+	0%{
+		transform: translateZ(500px) translateY(50px) translateX(20px);
+	}
+	50%{
+		transform: translateZ(500px) translateY(50px) translateX(20px);
+	}
+	100%{
+		transform: translateZ(0px);	
+	}
+}
+.img13{
+	width: 150px;
+	height: 26px;
+	position: absolute;
+	top: 182px;
+	left: 70px;
+	animation: img13move 1.5s linear 1s;
+	animation-fill-mode: forwards;	
+}
+@keyframes img13move{
+	0%{
+		transform: translateZ(500px);
+	}
+	50%{
+		transform: translateZ(500px);
+	}
+	100%{
+		transform: translateZ(0px);	
+	}
+}
+.xing1{
+	width: 150px;
+	height: 13px;
+	position: absolute;
+	top: 280px;
+	right: -130px;
+	transform-style: preserve-3d;
+	animation:move1 4s linear infinite -2.5s; 
+}
+@keyframes move1 {
+	0%{transform:translateY(0px) translateX(0px); }
+	75%{transform:translateY(0px) translateX(0px); }
+	100%{transform:translateY(100px) translateX(-500px); }
+}
+.xing2{
+	width: 110px;
+	height: 10px;
+	position: absolute;
+	top: 270px;
+	left: -100px;
+	transform-style: preserve-3d;
+	animation:move2 4s linear infinite -2.5s 
+}
+@keyframes move2 {
+	0%{transform: translateX(0px) translateY(0px);}
+	75%{transform: translateX(0px) translateY(0px);}
+	100%{transform: translateX(300px) translateY(90px);}
+}
+.xing3{
+	width: 130px;
+	height: 12px;
+	position: absolute;
+	top: 150px;
+	right: -120px;
+	transform-style: preserve-3d;
+	animation:move3 4s linear infinite -2s 
+}
+@keyframes move3 {
+	0%{transform: translateX(0px) translateY(0px);}
+	75%{transform: translateX(0px) translateY(0px);}
+	100%{transform: translateX(-400px) translateY(-80px);}
+}
+.wenzi{
+	color: white;
+	text-align: center;
+	font-size: 32px;
+	position: fixed;
+	bottom: 100px;
+	left: 50%;
+	margin-left: -78px;
+	animation:run1 3.5s linear 1;
+}
+@keyframes run1 {
+	0%{opacity: 0;}
+	75%{opacity: 0;
+		transform: scale3d(.3, .3, .3);}
+	100%{opacity: 1;}
+}
+
+.bottonimg{
+	width: 33px;
+	height: 11px;
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -16px;
+	transform-style: preserve-3d;
+	animation:run2 1s linear infinite ;
+}
+@keyframes run2 {
+	0%{transform: translateY(0px);}
+	50%{transform: translateY(-10px);}
+	100%{transform: translateY(0px);}
+}
+
+.music{
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	transform-style: preserve-3d;
+	animation:run3 1s linear infinite ;
+}
+@keyframes run3 {
+	from{transform: rotateZ(0deg);}
+	to{transform: rotateZ(360deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

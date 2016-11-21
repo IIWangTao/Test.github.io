@@ -1,0 +1,63 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+	background-color: #ebebeb;
+}
+.header{
+	width: 100%;
+	background-color: white;
+	position: relative;
+}
+.top{
+	width: 100%;
+	background-image: url(../image3/11.jpg);
+	position: relative;
+}
+.div1{
+	width: 615px;
+	font-size: 40px;
+	padding-top: 80px;
+	color: white; 
+	margin: auto;
+}
+.div2{
+	width: 664px;
+	margin: auto;
+	padding-top: 30px; 
+	padding-bottom: 10px; 
+}
+.div2 ul li{
+	font-size: 14px;
+	border: 1px solid red;
+	padding: 8px 15px;
+	border-radius: 2px;
+}
+.div2 ul li a{
+	color: white;
+	text-decoration: none;
+}
+.div2 ul li:hover{
+	background-color:#333; 
+}
+@media screen and (max-width: 750px){
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
